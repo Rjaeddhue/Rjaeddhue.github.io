@@ -1,0 +1,115 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #00a369;
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: stretch;
+  align-content: center;
+}
+.item {
+  align-self: center;
+}
+.item1 {
+  align-self: center;
+  flex-basis: 45%;
+  padding: 10px;
+}
+.item1 img {
+  height: 250px;
+  width: auto;
+}
+.navbar {
+  border-radius: 5px;
+  background-color: #00a369;
+  padding: 10px;
+  margin: 10px 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: fixed;
+  z-index: 999;
+  width: 90%;
+}
+.navbar-item {
+  padding: 0 20px;
+}
+.navbar-item,
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.text-upper {
+  text-transform: uppercase;
+}
+.text-center {
+  text-align: center;
+}
+.hero {
+  min-height: 100vh;
+  background-image: url("./assets/hero image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.hero-title {
+  padding-top: 40vh;
+  font-size: xxx-large;
+}
+.tile {
+  padding: 100px 250px;
+  z-index: 99;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.tile-with-background {
+  padding: 100px 250px;
+  background-image: url("./assets/leaves.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+p a {
+  text-decoration: none;
+  color: black;
+}
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #00a369;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+#backToTop:hover {
+  background-color: #555;
+}
