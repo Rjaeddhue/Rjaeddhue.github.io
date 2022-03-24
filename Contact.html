@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title> Contact Page</title>
+        <style>
+            input[type=submit]
+            {
+            color:#036897;
+            border:#4cb9e4;
+            }
+            fieldset,legend{
+            background-color:#c2e8fa;
+            }
+            fieldset{
+            box-shadow:0px 0px 5px #6ac5e9;
+            Border-radius:10px;
+            width:75%;
+            }
+            legend
+            {
+            color:#036897;
+            border: solid 1px #4cb9e4;
+            box-shadow:0px 0px 5px #6ac5e9;
+            }
+            input,select
+            {
+            border:solid 1px #4cb9e4;
+            color:'#F072A9l';
+            background-color:#a7dcf5; 
+            box-shadow:0px 0px 5px #6ac5e9;
+            margin:10px;
+            padding:5px;
+            margin-left:25px;
+            }
+            label{
+            color:#036897;
+            display:block;
+            }
+
+            /* Menu style */
+            ul
+            {
+                margin:0;
+                padding:0;
+                background-color:#6ac5e9;
+            }
+            li
+            {
+            display:inline-block;
+            padding:10px;
+            list-style-type:none;
+            cursor: pointer;
+            }
+            
+            li:hover
+            {
+                background-color:#1497ca;
+                /* cursor:pointer; */
+            }
+            a
+            {
+                color:black;
+                text-decoration:none;
+            }
+            .aMenu
+                {
+                    color:black;
+                    text-decoration:none;
+                }
+             .nav .currentLi{ 
+                background-color: #1497ca; 
+            }
+            </style>
+            <body style="background-image:url(bg2.jpg);">
+                <header>
+                    <div>
+                        <nav>
+                            <ul class="nav">
+                                <li><a href="Home.html" class="aMenu">Home</a></li>
+                                <li><a href="Projects.html" class="aMenu">Projects</a></li>
+                                <li><a href="About.html" class="aMenu">About</a></li>
+                                <li class="currentLi"><a href="Contact.html" class="aMenu">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <h3>Contact Details</h3>
+                </header>
+            <form>
+            <fieldset>
+            <legend>Details</legend>
+            <label>Name <input type="text" /></label>
+            <label>Email <input type="email" /></label>
+            <label>Phone<input type="text" /></label>
+            <!-- <label>Subject *<select style="">
+            <option>Appointment</option>
+            </select> </label> -->
+            
+            </label>
+            </fieldset>
+            <br />
+            <fieldset>
+            <legend>Message</legend>
+            <span style="vertical-align:top;color:#036897;">Message</span>
+            <textarea style="width:250px;height:100px;background-color:#a7dcf5; "></textarea>
+            <br />
+            <input type="submit" />
+            </fieldset>
+            </form>
+            </body>
+            </html>
+            
