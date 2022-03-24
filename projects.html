@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radhika Patel</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container navbar">
+        <div class="item navbar-item text-upper">
+          <a href="index.html#home">Home</a>
+        </div>
+        <div class="item navbar-item text-upper">
+          <a href="index.html#about">About</a>
+        </div>
+        <div class="item navbar-item text-upper">
+          <a href="projects.html">Projects</a>
+        </div>
+        <div class="item navbar-item text-upper">
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="container tile-with-background" id="projects">
+        <div class="item">
+          <h1 class="text-upper text-center">Projects</h1>
+        </div>
+      </div>
+      <div class="container tile">
+        <div class="item1">
+          <h3 class="text-upper text-center">The Numbers Game</h3>
+          <p>
+            The numbers game consists of different nine numbers. It is very basic android application. It has two
+            contitions if the number in the block is less than 5 the number will be incremented by 1. If the number is
+            greater than 5 it will br decremented by 1. It consists of 1 reset button upon click of that button all the
+            numbers will be back to its original form.
+          </p>
+          <img src="assets/Numbers_Game.png" />
+        </div>
+        <hr />
+        <div class="item1">
+          <h3 class="text-upper text-center">Calculator</h3>
+          <p>
+            This application performs basic calucations like Addition, subtraction, Multiplication, Division. Apart from
+            this it also calculates percentage and power and exponent of a number. The app cal also display results in
+            decimal points.
+          </p>
+          <img src="assets/Calculator.png" />
+          <img src="assets/Calculator_1.png" />
+        </div>
+        
+        <div class="item1">
+          <h3 class="text-upper text-center">Farmington</h3>
+          <p>
+            This Android application is for farmers where by they can get news updates, agricultural information, crops information.
+            The user have to register themselves first in order to access all the features. Apart from these functionality 
+            the farmers can also view weather prediction and plan their crop production accordingly.
+          </p>
+          <img src="assets/Login_Farmington.png" />
+          <img src="assets/PRofile.png" />
+          <img src="assets/weather.png" />
+        </div>
+        
+        <hr />
+        <div class="item1">
+          <h3 class="text-upper text-center">Smart Extension Board</h3>
+          <p>
+            This application consists of 4 plugs using which we will be able to turn lights or fans on/off. This
+            application requires internt to operate upon.It has one help button which provides instructions about how to
+            connect to the ip address. You can also set ip address or it will take the default provided.
+          </p>
+          <img src="assets/SmartEBoard_2.png" />
+          <img src="assets/SmartEBoard_3.png" />
+          <img src="assets/SmartEBoard_4.png" />
+        </div>
+      </div>
+    </div>
+    <div id="contact"></div>
+    <button onclick="topFunction()" id="backToTop" title="Go to top">&#11165;</button>
+    <div id="contact"></div>
+    <footer class="container shadow">
+      <h4 class="text-center">
+        Author: Radhika Patel<br />
+        <p>
+          <a href="https://github.com/Rjaeddhue">https://github.com/Rjaeddhue</a> |
+          <a href="https://www.linkedin.com/in/radhika-patel-817295212/"
+            >https://www.linkedin.com/in/radhika-patel-817295212/</a
+          >
+          |
+          <a href="https://my.indeed.com/p/w9incpu/profile">https://my.indeed.com/p/w9incpu/profile</a>
+        </p>
+      </h4>
+    </footer>
+
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("backToTop");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>
