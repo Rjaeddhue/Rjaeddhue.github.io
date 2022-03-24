@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radhika Patel</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container navbar">
+        <div class="item navbar-item text-upper">
+          <a href="index.html#home">Home</a>
+        </div>
+        <div class="item navbar-item text-upper">
+          <a href="#about">About</a>
+        </div>
+        <div class="item navbar-item text-upper">
+          <a href="projects.html">Projects</a>
+        </div>
+        <div class="item navbar-item text-upper">
+          <a href="/Contact.html#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="container hero" id="home">
+        <h1 class="text-upper hero-title">RADHIKA PATEL</h1>
+      </div>
+      <div class="container tile-with-background" id="about">
+        <div class="item">
+          <h1 class="text-upper text-center">Portfolio</h1>
+        </br>
+          <p>
+            Hi, I am Radhika. My background is from computers field. I have persued Bachelors of computer
+            applications(BCA) and Masters of Computer Applications(MCA). I am currently a student of Georgian college.
+            My area of interest are data analytics, Google Analytics, Google Tag Manager,developing mobile appliations,
+            and Visualizing reports.
+          </p>
+        </div>
+      </div>
+      <div class="container tile">
+        <div class="item">
+          <h1 class="text-upper text-center">Experience</h1>
+        </br>
+          <p>
+            I have had one year experience as Associate Technical Analyst where my responsibilites to solve techical
+            queries of the client and work on javascript. I have also worked with various Analysis Tools like, Google
+            Tag Manager, Google Analytics, Google Optimize. I used to analyze various kinds of reports of the users.
+          </p>
+        </div>
+      </div>
+      <div class="container tile-with-background">
+        <div class="item">
+          <h1 class="text-upper text-center">Education</h1>
+            </br>
+            <p>Masters of Computer Applications : 2018 to 2020</p>
+            <p>Bachelors of Computer Applications : 2016 to 2018</p>
+            <p>Mobile Application Development : 2022 to Present</p>
+        </div>
+        <hr>
+        <div class="item">
+          <h1 class="text-upper text-center">Certifications</h1>
+            </br>
+            <p class="text-center">Google Analytics</p>
+            <p class="text-center">Google Tag Manager</p>
+            <p class="text-center">Firebase Analytics</p>
+            <p class="text-center">Amazon Web Servies</p>
+        </div>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="backToTop" title="Go to top">	&#11165;</button>
+    <div id="contact"></div>
+    <footer class="container shadow">
+        <h4 class="text-center">Author: Radhika Patel<br>
+            <p>
+                <a href="https://github.com/Rjaeddhue">https://github.com/Rjaeddhue</a> | 
+                <a href="https://www.linkedin.com/in/radhika-patel-817295212/">https://www.linkedin.com/in/radhika-patel-817295212/</a> | 
+                <a href="https://my.indeed.com/p/w9incpu/profile">https://my.indeed.com/p/w9incpu/profile</a> 
+            </p>
+        </h4>
+    </footer>
+
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("backToTop");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+  </body>
+</html>
