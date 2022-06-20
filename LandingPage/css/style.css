@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Lato:wght@300;400&family=Poppins:wght@200;300&display=swap');
+
+body{
+    font-family:"Barlow", sans-serif;
+    line-height: 1.7;
+    color: black;
+    /* #00a369; */
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important;
+    color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight:500;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+/* nav bar */
+.top-nav{
+    background-color:#00a369;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-left: 16px;
+    color: white;
+}
+
+.top-nav i, .top-nav span{
+    vertical-align: middle;
+}
+
+.social-links a{
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255,255,255,0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.social-links a:hover{
+    background-color: white;
+    color: #317851;
+}
+
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-nav .nav-link:hover, 
+.navbar .navbar-nav .nav-link.active{
+    color:#317851;
+
+
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    color: black;
+}
+
+/* BTN  */
+.btn{
+    padding: 9px 24px;
+}
+
+.btn-brand{
+    background-color:#00a369 ;
+    color:white;
+    border-color: #317851;
+}
+.btn-brand:hover{
+    color: white;
+    background-color: #317851;
+}
+
+/* SLIDER */
+
+.slide1{
+    background: url(../img/bg6.jpg);
+}
+
+.slide2{
+    background: url(../img/bg7.jpg);
+}
+
+.slide3{
+    background: url(../img/bg5.jpg);
+}
+
+/* Owl carasoul */
+.owl-prev, .owl-next{
+    position:absolute;
+    top:50%;
+    width: 50px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color:rgba(255,255,255,0.2) !important;
+    margin-top: -30px !important;
+    color: white !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    border-radius: 100% !important;
+}
+
+.owl-prev{
+    left: 0;
+}
+.owl-next{
+    right: 0;
+
+}
+
+.owl-next:hover, .owl-prev:hover{
+    background-color: #00a369 !important;
+
+}
+
+/* INFOBOX */
+.info-box{
+    display: flex;
+    align-items: center;
+}
+.info-box img{
+width: 90px;
+margin-right: 18px;
+}
+
+.aboutus{
+    border-radius: 100% !important;
+    /* margin-left: 35%; */
+}
+
+/* Milestone */
+#milestone{
+    background:linear-gradient(rgba(#00a369), rgba(#00a369)), url(../img/bg7.jpg);
+}
+
+
+/* Footer */
+footer{
+    padding-top: 80px;
+    color: white;
+    text-align: center;
+    padding-bottom:40px;
+    background:linear-gradient(rgba(60, 156, 95, 0.8),rgba(60, 156, 95, 0.8)), url(../img/bg4.jpg);
+}
+
+footer .navbar-brand{
+    color: white;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+.footer-top{
+    margin-bottom: 40px;
+}
+
+.footer-bottom{
+    border-top: 1px solid rgba(255, 255, 255, 0.285) !important;
+    padding-top: 20px;
+}
+
+footer .social-links{
+    margin-left: 5px;
+    margin: 5px;
+}
